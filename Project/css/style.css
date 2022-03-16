@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+  background-color: #080f16;
+}
+
+.conspect {
+  color: #fff;
+  font-size: 40px;
+  padding: 50px 0 0 50px;
+}
+
+.conspect__link:hover {
+  text-decoration: underline;
+}
+
+.conspect a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.lesson-1 {
+  margin: 50px;
+  padding: 50px 0;
+  background-color: #31485f;
+  border-radius: 5px;
+}
+
+.lesson-1__title a {
+  color: #ec7239;
+  text-decoration: none;
+  transition-duration: 5s;
+}
+
+.lesson-1__title:hover {
+  text-decoration: underline;
+}
+
+.lesson-1__title:visited {
+  text-decoration: none;
+}
+
+.title {
+  color: #ec7239;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.scheme {
+  max-width: 400px;
+  transition: 0.5s;
+}
+
+.scheme:hover {
+  max-width: 450px;
+  transition: 0.5s;
+}
+
+.open {
+  color: #fff;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.open a {
+  color: #fff;
+}
+
+.lesson-1__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lesson-1__body {
+  color: #fff;
+}
+
+.lesson-1__text {
+  width: 600px;
+  padding: 0 50px 0 20px;
+}
+
+.lesson-1__text li {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
